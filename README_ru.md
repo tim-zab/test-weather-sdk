@@ -22,7 +22,8 @@
 </dependency>
 ```
 Получите свой OPENWEATHER_API_KEY на сайте https://openweathermap.org/api и поместите его в свой .env файл в корне проекта. 
-Также .env файле вы можете установить интервал обновления UPDATE_INTERVAL
+Также .env файле вы можете установить интервал обновления UPDATE_INTERVAL и 
+DEFAULT_API_URL=https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metric
 
 #### Использование
 Пример использования можно посмотреть в examples/ExampleUsage.java

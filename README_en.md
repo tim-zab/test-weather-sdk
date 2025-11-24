@@ -21,6 +21,11 @@ Add to your `pom.xml`:
     <version>1.0.1</version>
 </dependency>
 ```
+
+Get your OPENWEATHER_API_KEY on site https://openweathermap.org/api and place it to your .env file in the project root.
+Also .env you can set there an UPDATE_INTERVAL and
+DEFAULT_API_URL=https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metric
+
 #### Usage
 You can see example usage in examples/ExampleUsage.java
 
